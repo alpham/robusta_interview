@@ -6,6 +6,7 @@ import importlib
 available_algorithms = [
     'shift',
     'matrix',
+    'reverse'
 ]
 
 @click.command('cipher')
